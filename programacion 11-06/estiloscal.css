@@ -1,0 +1,103 @@
+.container{
+    position: fixed ;
+    width: 100vw;
+    height: 100vh;
+
+}
+.submit{
+     background-color: #d400ff;
+
+}
+.card{
+    position: relative;
+    text-align: center;
+    left: 30%;
+    width: 18vw;
+    height: 8vw;
+}
+
+
+
+.form-group{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    left: 20%;
+    top: 0px;
+}
+.form-group2{
+    position: relative;
+    text-align: center;
+    left: 20%;
+    width: 50%;
+    height: 30%;
+}
+.form-check-form-check-inline1{
+    position: relative;
+    left: 20%;
+    width: 50%;
+    height: 30%;
+    top: 15px;
+} 
+
+.form-check-form-check-inline2{
+    position: relative;
+    left: 20%;
+    width: 50%;
+    height: 30%;
+    top: 20px;
+}
+.btn-primary{
+    position: relative;
+    left: 20%;
+    top: 20px;
+}
+.form-group-row1{
+    position: relative;
+    text-align: center;
+    left: 20%;
+    width: 55%;
+    height: 30%;
+ 
+}
+.form-group-row2{
+    position: relative;
+    text-align: center;
+    left: 20%;
+    width: 55%;
+    height: 30%;
+}
+.form-group-row3{
+    position: relative;
+    text-align: center;
+    left: 20%;
+    width: 55%;
+    height: 30%;
+}
+.card2{
+    position: relative;
+    text-align: center;
+    left: 30%;
+    width: 18vw;
+    height: 10vw;
+}
+.card3{
+    position: relative;
+    text-align: center;
+    left: 0%;
+    width: 18vw;
+    height: 12vw;
+
+}
+.card4{
+    position: center;
+    text-align: center; 
+    width: 20vw;
+    height: 8vw;
+}
+body{
+    padding: 0;
+        margin: 0;
+        background-image: url("img/descarga.jpg");
+}

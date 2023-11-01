@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><!--lenguaje del texto-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title> <!--titulo de la pagina -->
+  <link rel="stylesheet" href="estiloscal.css"><!--link de union para el documento css-->
+  <link rel="stylesheet" href="calculo.js"><!--link de union para el documento js-->
+<style>
+    body{
+    background-image: url("img/descarga.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+</style>
+
+  </head><!-- cabeza del codigo-->
+  </body><!--cuerpo del codigo-->
+  <div class="card" style="width: 30rem;"><!--es una class que es un espacio de texto el cual puede ser cambiado con el width-->
+  <div class="card-body"><!--el cuerpo de el espacio o carta como lo llamamos en esta ocacion-->
+    <h5 class="card-title">IMC</h5><!--titulo de la carta-->
+    <h6 class="card-subtitle mb-2 text-muted">¿que es el IMC?</h6><!--es el subtitulo del esoacio card-->
+    <p class="card-text">el IMC(indice de masa corporal) es un indicador de peso, el cual deberia tener una persona, esta se calcula, con el sexo, el peso, la edad y la estatura de una persona, esta indica los valores de IMC que tiene una persona y si esta bien
+        o tiene algunas complicaciones <!--esta es la parte de texto para eso se usa el p comand para incluir texto al apartado-->
+    </p>
+  </div><!--cierre del tercer div-->
+  </div><!--cierrre del segundo div-->
+  </div><!--cierre del primer div-->
+  <div class="card2" style="width: 30rem;"><!--a esta clase se le llamo card2 es un espacio el cual sera como una carta -->
+    <div class="card-body"><!--cuerpo de la segunda carta-->
+      <h5 class="card-title">IMC en niños</h5><!--titulo de la segunda carta-->
+      <h6 class="card-subtitle mb-2 text-muted">¿cual es el IMC en los niños y adolescentes?</h6><!--subtitulo de la segunda carta-->
+      <p class="card-text">El IMC en niños o adolescentes es importante de calcular puesto a los problemas que podria adquirir por los niveles de grasa corporal, lo idea es que los jovenes tanto como las personas mayores esten en un IMC normal </p>   
+      <!--texto de la segunda carta-->
+    </div><!--cierre de la carta-->
+  <div class="card3" style="width: 30rem;"><!--tercera carta-->
+    <div class="card-body"><!--cuerpo de la tercera carta-->
+      <h5 class="card-title">IMC en adultos y adultos mayores</h5><!--titulo de la tercera carta-->
+      <h6 class="card-subtitle mb-2 text-muted">cuales son las complicaciones en los adultos</h6><!--subtitulo de la tercera carta-->
+      <p class="card-text">Las complicaciones que un alto IMC o bajo IMC podria traer en un adulto podrian ser graves, por ejemplo, la obesidad, su organos ya estan mas deteriorados y por lo tanto la manera en como estos trabajan, podria tener problemas de salud grave incluyendo la muerte </p>   
+      <!--texto de la tercera carta-->
+    </div><!--cierre de la tercera carta-->
+      </p><!--cierre de p-->   
+    </div><!--cierre de carta 4-->
+  </html><!---->
+  <form> <!--se empieza una seccion interactiva-->
+    <div class="form-group"><!--se empieza un class el cual podra ser editado para eso el nombre en el class-->
+      <label for="formGroupExampleInput">Nombre</label><!--una etiqueta con un parte interactiva con un titulo que sera "nombre"-->
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ingrese su nombre"><!---creamos
+      un div de tipo texto el cual nos permitira ingresar el valor en texto y de hay poder usarlos y llamarlo--->
+    </div><!--cierre del classform-group""-->
+    <div class="form-group2"><!--se empieza un segundo form para completar el primero-->
+      <label for="formGroupExampleInput2">Apellido</label><!--lo mismo que el anterior pero esta ves cambiamos el nombre de lo que se le pide al usuario-->
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ingrese su apellido"><!--variable
+      de tipo texto la cual podra ser utilizada y llamada -->
+    </div><!--cierre del apartado"form-group2"-->
+  </form><!--cierre del apartado form contando nombre y apellido-->
+
+  <div class="form-check-form-check-inline1"><!--creamos un nuevo class para poder modificarlo y que todo quede dentro de este-->
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"><!--
+    creamos un class de tipo radio la cual nos dara la opcion de seleccionarla y en cuanto se selecciona otro espacio de este mismo tipo este no este seleccionado
+  -->
+  <label class="form-check-label" for="inlineRadio1">Mujer</label><!--en esta linea le ponemos nombre a la parte a seleccionar y poder seleccionarla-->
+</div><!--cierre de este class-->
+  <div class="form-check-form-check-inline2"><!--class igual que el anterior pero sera el segundo de este-->
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"><!--
+      class de tipo radio para seleccionarlo y que no quede seleccionado si se escoge otro de este tipo
+    -->
+    <label class="form-check-label" for="inlineRadio2">Hombre</label><!--ingreso de valor y nombre a la etiqueta-->
+  </div><!--cierre de esta class-->
+
+  <form><!--se empieza una sesion interactiva-->
+    <div class="form-group-row1"><!--se empieza una class para distinguir lo que hay en esta-->
+      <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Edad</label><!--etiqueta con espacio interactivo-->
+      <div class="col-sm-10"><!--se crea una class para la parte de la funcionalidad de la edad-->
+        <input type="edad" class="form-control form-control-sm" id="colFormLabelSm" placeholder="¿cual es su edad?"><!--interactividad con indicaciones-->
+      </div><!--cierre del segundo div-->
+    </div><!--cierre del primer div-->
+    <div class="form-group-row2"><!--se empieza una class para distinguir lo que hay en esta-->
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Peso</label><!--etiqueta con espacio interactivo-->
+      <div class="col-sm-10"><!--se crea una class para la parte de la funcionalidad del peso-->
+        <input type="peso" class="form-control" id="colFormLabel" placeholder="¿cuanto pesa?"><!--interactividad con indicaciones-->
+      </div><!--cierre del segundo div-->
+    </div><!--cierre del primer div-->
+    <div class="form-group-row3"><!--se empieza una sesion interactiva-->
+      <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Altura</label><!--etiqueta con espacio interactivo-->
+      <div class="col-sm-10"><!--se crea una class para la parte de la funcionalidad para la altura-->
+        <input type="altura" class="form-control form-control-lg" id="colFormLabelLg" placeholder="¿cuanto mide?"><!--interactividad con indicaciones-->
+      </div><!--cierre del segundo div-->
+    </div><!--cierre del primer div-->
+    <div class="card4" style="width: 55rem;"><!--esta es la carta 4-->
+        <div class="card-body"><!--cuerpo de la carta 4-->
+          <h5 class="card-title">REFERENCIAS</h5><!--este es el textod de la carta 4 el cual se llama referencias por los links en los cuales se busco-->
+          <p class="card-text">https://www.cdc.gov/healthyweight/spanish/assessing/bmi/childrens_bmi/acerca_indice_masa_corporal_ninos_adolescentes.html.
+            https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S0212-16112017000500033#:~:text=En%20adultos%20mayores%20se%20ha,32%2C0%20(5).
+            https://www.cdc.gov/healthyweight/spanish/assessing/bmi/adult_bmi/index.html.<!--estas son las referencias de investigacion-->
+  </form><!--cierre de la seccion interactiva-->
+
+
+  <button type="submit" class="btn-primary">enviar</button><!--un boton con nombre enviar el cual cumple la funcion de enviar los datos-->
+  </form><!--cierre del espacio interactivo-->
+</div><!--cierre de un div secundario-->
+</div><!--cierre del div primario-->
+</body><!--cierre del cuerpo del codigo-->
+</html><!--cierre del html-->
